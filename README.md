@@ -1,6 +1,7 @@
 # Tales-of-Literature
 #Installation
-  1. Download the Zip from The Release Button **Do not download From the code Button and do not download the source code.**
+  1. Download the Zip from The Release Button 
+    **Do not download From the code Button and do not download the source code.**
   2. Extract into a Folder
   3. Run DDLC.exe
 
