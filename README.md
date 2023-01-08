@@ -4,10 +4,10 @@
   2. Extract into a Folder
   3. Run DDLC.exe
 
-Bugs:
+**Bugs**:
  For Bug Reports please open a Issue
  
- Adding something to Tales of Literature:
+ **Adding something to Tales of Literature**:
  
   If you have Suggestions make open a Issue an name [Suggestion] -
   To add something to the story, go into the game Folder and edit the File story.rpy
@@ -19,4 +19,4 @@ Bugs:
   show [character] [exp_code] at [Position],
   play music [music_code].
   
-  For Contributing please use the content Branch
+  For Contributing Content, please use the content Branch
