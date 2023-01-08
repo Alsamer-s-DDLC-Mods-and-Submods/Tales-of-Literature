@@ -20,3 +20,7 @@
   play music [music_code].
   
   For Contributing Content, please use the content Branch
+  
+  **For Questions**:
+    Please Contact this E-mail or my Discord: talesofliterature@gmail.com
+                                              Discord: Alsamer98#9852
