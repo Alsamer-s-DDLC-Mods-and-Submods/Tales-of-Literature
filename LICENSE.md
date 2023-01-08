@@ -6,7 +6,8 @@ Disclaimer
 These guidelines do not grant a copyright license to any DDLC-related fan content. Despite these guidelines, Team Salvato reserves the right to issue a formal takedown request for any content that infringes copyright. This includes content that uses official DDLC assets, as well as content that includes any Intellectual Properties (IPs) that belong to Team Salvato. Moreover, this page is subject to revision at any time without notice.
 
 This page was last updated: January, 08 2023
-Fan Work
+
+**Fan Work**
 
 “Fan Work” refers to any content that includes IPs that belong to Team Salvato. The content in question includes, but is not limited to, art, music, animation, writing, videos, websites, apps, and games. The guidelines pertain to any fan work that takes place in the DDLC universe or includes characters, setting, or storyline from DDLC.
 
