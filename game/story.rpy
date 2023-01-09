@@ -6,7 +6,7 @@ label story:
     show monika 1a at t11
     m "Ah [player] I have something to ask you."
     "This is Monika, she is my Neighbor."
-    player "Sorry, Monika I have to do somehting important fist."
+    player "Sorry, Monika I have to do something important fist."
     show monika 2c at t11
     m "What do you have to do [player]?"
     player "Sayori asked me for help."
