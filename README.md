@@ -1,6 +1,7 @@
 # Tales-of-Literature
 #Installation
-  1. Download the Zip from The Release Button **Do not download From the code Button.**
+  1. Download the Zip from The Release Button 
+    **Do not download From the code Button and do not download the source code.**
   2. Extract into a Folder
   3. Run DDLC.exe
 
@@ -20,3 +21,8 @@
   play music [music_code].
   
   For Contributing Content, please use the content Branch
+  
+  **For Questions**:
+    Please Contact this E-mail or my Discord: talesofliterature@gmail.com
+                                              Discord: Alsamer98#9852
+                                              Dicord Server: https://discord.gg/esFZmW4QHd

@@ -6,7 +6,7 @@ label story:
     show monika 1a at t11
     m "Ah [player] I have something to ask you."
     "This is Monika, she is my Neighbor."
-    player "Sorry, Monika I have to do somehting important fist."
+    player "Sorry, Monika I have to do something important fist."
     show monika 2c at t11
     m "What do you have to do [player]?"
     player "Sayori asked me for help."
@@ -17,7 +17,9 @@ label story:
     player "Got that, I will come."
     hide monika
 
+    stop music fadeout 2.0
     show bg class_day
+    with wipeleft_scene
     play music t2 fadeout 1
     show sayori 1h at t11
     s "Hello [player]."
@@ -41,6 +43,7 @@ label story:
     hide sayori
 
     show bg corridor
+    with wipeleft_scene
     play music t5 fadeout 1
     show sayori 1a at t11
     "As we were walking down the Corridor, we heard someone scream."
@@ -52,6 +55,7 @@ label story:
     hide sayori
 
     show bg club_day
+    with wipeleft_scene
     play music t6
     "We opened the Door and saw a little Girl with Pink Hair staring at Manga on the Floor."
     show natsuki 5f at t22
@@ -80,7 +84,7 @@ label story:
     show sayori 2u at s21
     s "Why are you yelling at me?"
     show natsuki 5g at t22
-    n "Im sorry for yelling at you Sayori but these Books have a Sentiment Value toward me, so I yelled without thinking."
+    n "These books are meaning a lot to me, so sorry for yelling at you but i didn't think at just yelled."
     s "Im really sorry Natsuki, I din't know that this Manga means so much to you."
     player "Natsuki, should we help you with your Manga?"
     player "See it as a apologie"
@@ -98,6 +102,7 @@ label story:
     hide natsuki
 
     show bg lockers
+    with wipeleft_scene
     show sayori 1f at t11
     player "Come on Sayori don't be so down just because someone yelled at you."
     show sayori 1h at t11
@@ -116,6 +121,7 @@ label story:
     hide sayori
     
     show bg house
+    with wipeleft_scene
     show monika 3h at t22
     show sayori 1a at t21
     "As Sayori and I were walking back home I saw Monika already waiting for me."
@@ -133,8 +139,28 @@ label story:
     player "4 Times?"
     show sayori 1l at t21
     s "Eheh~"
-
     hide sayori
+    hide monika
+
+    show bg kitchen
+    with wipeleft_scene
+    "We entered my and Sayori's House and made our way to the kitchen."
+    show sayori 1a at t21
+    show monika 1a at t22
+    player "Sayori, why don't you relax a little."
+    player "In the meantime I will cook something for you, then Monika can ask her question."
+    show sayori 3q at t21
+    s "Ok [player]."
+    show monika 4j at t11
+    m "Now [player], I want to ask you if you want to start a Club in school?"
+    player "A Club huh?"
+    player "Yeah I would be intrested."
+    player "Do you have any Idea of what you want to do?"
+    show monika 3l at t11
+    m "Not really."
+    show monika 1k at t11
+    m "But im sure we could figure out something."
+
     show bg black
     show monika 1a at t11
     m "This is the End of the Alpha."
