@@ -2,19 +2,19 @@ label story:
     show bg corridor
     play music t5
     player "Another Day in school is another day wasted"
-    player "As I was walking down the hallway I saw someone in the Distance"
+    player "As I was walking down the hallway, I saw someone in the Distance"
     show monika 1a at t11
     m "Ah [player] I have something to ask you."
     "This is Monika, she is my Neighbor."
-    player "Sorry, Monika I have to do something important fist."
+    player "Sorry Monika, I have to do something important fist."
     show monika 2c at t11
     m "What do you have to do [player]?"
     player "Sayori asked me for help."
     show monika 3b at t11
     m "Sayori? I saw her in your Classroom."
     player "Ok, thank you Monika, ask me later."
-    m "I will wait for you in the Libary."
-    player "Got that, I will come."
+    m "I'll wait for you in the Libary."
+    player "Got that, see you soon"
     hide monika
 
     stop music fadeout 2.0
@@ -23,18 +23,18 @@ label story:
     play music t2 fadeout 1
     show sayori 1h at t11
     s "Hello [player]."
-    "This is Sayori my ex-childhood Friend and nowdays my Step-Sister."
-    "My Family adopted her after her Parents died 9 years ago."
-    player "Sayori, whats up you seem down."
+    "This is Sayori, my ex-childhood Friend and nowdays my Step-Sister."
+    "My Family adopted her after her Parents died, 9 years ago."
+    player "Sayori, whats up? You seem down."
     show sayori 1k at t11
-    s "No, [player] nothing is wrong I just had a bad day."
-    player "Are you hungry again?"
+    s "No [player], nothing is wrong. I just had a bad day."
+    player "Are you hungry?"
     show sayori 5b at t11
     s "No..."
     player "Then im going to eat something alone."
     show sayori 4p at t11
     s "Wait!"
-    s "Maybe im a bit Hungry"
+    s "Maybe i am a bit Hungry"
     show sayori 5a at s11
     s "But, I don't have any Money on me."
     player "Don't worry Sayori, food is on me today."
