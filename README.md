@@ -25,3 +25,7 @@
   **For Questions**:
     Please Contact this E-mail or my Discord: talesofliterature@gmail.com
                                               Discord: Alsamer98#9852
+
+
+**Discord Server now Open**
+https://discord.gg/esFZmW4QHd
