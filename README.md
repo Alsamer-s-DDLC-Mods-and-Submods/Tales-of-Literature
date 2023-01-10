@@ -2,27 +2,28 @@
 #Installation
   1. Download the Zip from The Release Button 
     **Do not download From the code Button and do not download the source code.**
-  2. Extract into a Folder
+  2. Extract into a Folder.
   3. Run DDLC.exe
 
 **Bugs**:
- For Bug Reports please open a Issue
+ For Bug Reports please open an Issue.
  
  **Adding something to Tales of Literature**:
  
-  If you have Suggestions open a Issue an name [Suggestion] -
+  If you have Suggestions open an Issue, with the headline [Suggestion] -
   To add something to the story, go into the game Folder and edit the File story.rpy
-  Adding Backgrounds should be done in game/the mod_assets/bg Folder
+  Adding Backgrounds should be done in **game/the mod_assets/bg**. Folder
   Definitions are to be made in deffinitions.rpy
-  Basic code are:
+  Basic codes are:
  
-  show bg [name_of_Background],
-  show [character] [exp_code] at [Position],
-  play music [music_code].
+         show bg [name_of_Background] 
+         show [character] [exp_code] at [Position] 
+         play music [music_code] 
   
-  For Contributing Content, please use the content Branch
+  For Contributing Content, please use the content Branch.
   
   **For Questions**:
-    Please Contact this E-mail or my Discord: talesofliterature@gmail.com
-                                              Discord: Alsamer98#9852
+    Please be free to use one of the following: <br />
+                                              Email: talesofliterature@gmail.com <br />
+                                              Discord: Alsamer98#9852 <br />
                                               Dicord Server: https://discord.gg/esFZmW4QHd
