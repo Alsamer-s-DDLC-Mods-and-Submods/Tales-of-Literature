@@ -1,5 +1,5 @@
-Custom Backgrounds: Uncle Mugen
-Thumbs: Milo
-Writing: Alsamer98, Beb
-coding: Alsamer98
-Special Thanks: Dreamscached
+Custom Backgrounds: Uncle Mugen <br />
+Thumbs: Milo <br />
+Writing: Alsamer98, Beb <br />
+coding: Alsamer98 <br />
+Special Thanks: Dreamscached <br />
