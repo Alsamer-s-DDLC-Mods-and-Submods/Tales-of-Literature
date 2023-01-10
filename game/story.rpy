@@ -17,7 +17,7 @@ label story:
     player "Got that, see you soon"
     hide monika
 
-    stop music fadeout 2.0
+    stop music fadeout 1.5
     show bg class_day
     with wipeleft_scene
     play music t2 fadeout 1
@@ -41,6 +41,7 @@ label story:
     s "Yay!"
     hide sayori
 
+    stop music fadeout 1.5    
     show bg corridor
     with wipeleft_scene
     play music t5 fadeout 1
@@ -52,10 +53,11 @@ label story:
     player "I don't know, but i think she need help"
     "We rushed where we thought the Scream came from."
     hide sayori
-
+    
+    stop music fadeout 1.5
     show bg club_day
     with wipeleft_scene
-    play music t6
+    play music t6 fadeout 1
     "We opened the Door and saw a little Girl with Pink Hair, staring at Manga on the Floor."
     show natsuki 5f at t22
     show sayori 2m at l21
@@ -83,18 +85,18 @@ label story:
     show sayori 2u at s21
     s "Why are you yelling at me?"
     show natsuki 5g at t22
-    n "These books mean a lot to me. Sorry for yelling at you, I didn't think it just came out."
-    show sayori 1w at s21
+    n "These books mean a lot to me. Sorry for yelling at you, but I didn't think, it just came out."
+    show sayori 1w at t21
     s "Im really sorry Natsuki, I din't know that this Manga means so much to you."
-    show sayori 2k at s21
+    show sayori 2k at t21
     player "Do you mind, us helping you?"
     player "See it as a apologie"
     show natsuki 5e at t22
     n "No I don't need help of you two, I'll do it myself."
-    show sayori 1f at s21
+    show sayori 1f at t21
     player "Are you sure Natsuki?"
     show natsuki 4e at t22
-    n "Yes I am Sure"
+    n "Yes, I am Sure"
     player "Ok then, have great day!"
     player "That made me hungry Sayori. Let's go eat something now."
     show natsuki 1c at t22
@@ -103,7 +105,9 @@ label story:
     hide sayori
     hide natsuki
 
+    stop music fadeout 1.5
     show bg lockers
+    play music t2 fadeout 1
     with wipeleft_scene
     show sayori 1f at t11
     player "Come on Sayori don't be sad just because someone yelled at you. It wasn't on purpose either."
@@ -122,7 +126,9 @@ label story:
     "I ignore that. Let's get going now."
     hide sayori
     
+    stop music fadeout 1.5
     show bg house
+    play music t8 fadeout 1
     with wipeleft_scene
     show monika 3h at t22
     show sayori 1a at t21
@@ -159,10 +165,10 @@ label story:
     player "A Club huh?"
     player "Yeah I would be interested."
     player "Do you have any Idea about what kind of club?"
-    show monika 3l at t11
+    show monika 2l at t11
     m "Not really."
     show monika 1k at t11
-    m "But im sure we could figure it out."
+    m "But im sure we could figure something out."
 
     show bg black
     show monika 1a at t11
