@@ -30,11 +30,10 @@ label story:
     s "No [player], nothing is wrong. I just had a bad day."
     player "Are you hungry?"
     show sayori 5b at t11
-    s "No..."
+    s "No{w=0.2}.{w=0.2}.{w=0.2}."
     player "Then im going to eat something alone."
     show sayori 4p at t11
-    s "Wait!"
-    s "Maybe i am a bit Hungry"
+    s "Wait,{w=0.7} maybe i am a bit Hungry"
     show sayori 5a at s11
     s "But, I don't have any Money on me."
     player "Don't worry Sayori, food is on me today."
@@ -85,17 +84,19 @@ label story:
     s "Why are you yelling at me?"
     show natsuki 5g at t22
     n "These books mean a lot to me. Sorry for yelling at you, I didn't think it just came out."
+    show sayori 1w at s21
     s "Im really sorry Natsuki, I din't know that this Manga means so much to you."
-    player "May we assist you picking them up?"
+    show sayori 2k at s21
+    player "Do you mind, us helping you?"
     player "See it as a apologie"
     show natsuki 5e at t22
     n "No I don't need help of you two, I'll do it myself."
-    show sayori 1f at t21
+    show sayori 1f at s21
     player "Are you sure Natsuki?"
     show natsuki 4e at t22
     n "Yes I am Sure"
     player "Ok then, have great day!"
-    player "That made me hungry. Let's go eat something now."
+    player "That made me hungry Sayori. Let's go eat something now."
     show natsuki 1c at t22
     "Natsuki's Eyes light up as I said that"
     "But she doesn't say anything"
@@ -117,7 +118,7 @@ label story:
     s "Pretty Please?"
     player "No, that would ruin the surprise."
     show sayori 1p at t11
-    s "Meanie"
+    s "Your'e a Meanie [player]."
     "I ignore that. Let's get going now."
     hide sayori
     
@@ -152,6 +153,7 @@ label story:
     player "In the meantime, I will cook something for you, then Monika can ask her question."
     show sayori 3q at t21
     s "Ok [player]."
+    hide sayori with dissolve
     show monika 4j at t11
     m "Now [player], I want to ask you, if you want to start a Club in school?"
     player "A Club huh?"
@@ -169,7 +171,7 @@ label story:
     m "So this is the goodbye for now."
     show monika 1e at t11
     m "See you around next time."
-    "Wait before we roll the credits, I want to thank Milo and Dreamscached for supporting and helping me."
+    "Wait before we roll the credits, I want to thank Milo, Beb and Dreamscached for supporting and helping me."
     show monika 4b at t11
     m "Now, roll the credits."
     jump credits
