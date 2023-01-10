@@ -272,9 +272,6 @@ transform credits_sticker_2:
     xalign 0.44
     credits_sticker_scroll
 
-    show credits_header "Special Thanks" as credits_header_1 at credits_text_scroll_left
-    show credits_text "Beb" as credits_text_1 at credits_text_scroll_left
-
 # This transform handles the Yuri Chibi animation in the credits.
 transform credits_sticker_3:
     yanchor 1.00
@@ -674,6 +671,10 @@ label credits2:
         call updateconsole_clearall ("os.remove(\"images/cg/s_cg2.png\")", "s_cg2.png deleted successfully.")
     $ pause(88.00 - (datetime.datetime.now() - starttime).total_seconds())
     show expression ("credits_cg9" + lockedtext) as credits_image_1 at credits_scroll_right
+
+    show credits_header "Special Thanks" as credits_header_1 at credits_text_scroll_left,
+    show credits_text "Beb" as credits_text_1 at credits_text_scroll_left,
+
     
     $ lockedtext = "" if persistent.clear[imagenum] else "_locked"
     $ if persistent.clearall: lockedtext = "_clearall"
