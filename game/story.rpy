@@ -80,11 +80,11 @@ label story:
     s "I don't see it as a big problem, it's just books"
     show natsuki 5f at t22
     show sayori 1u at h21
-    n "NO! IT'S NOT JUST A BOOKS!"
+    n "NO! THESE AREN'T JUST BOOKS!"
     show sayori 2u at s21
     s "Why are you yelling at me?"
     show natsuki 5g at t22
-    n "These books mean a lot to me. Sorry for yelling at you, comes out sometimes."
+    n "These books mean a lot to me. Sorry for yelling at you, I didn't think it just came out."
     s "Im really sorry Natsuki, I din't know that this Manga means so much to you."
     player "May we assist you picking them up?"
     player "See it as a apologie"
@@ -95,6 +95,7 @@ label story:
     show natsuki 4e at t22
     n "Yes I am Sure"
     player "Ok then, have great day!"
+    player "That made me hungry. Let's go eat something now."
     show natsuki 1c at t22
     "Natsuki's Eyes light up as I said that"
     "But she doesn't say anything"
