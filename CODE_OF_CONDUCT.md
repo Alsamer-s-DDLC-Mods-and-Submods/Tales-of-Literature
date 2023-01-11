@@ -1,15 +1,15 @@
-**In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.**
+**In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.** <b />
 <b />
 <b />
-**Standadarts in our Community**
+**Standadarts in our Community** <b />
 Examples of good Behavior are: <b />
- *Being respectful of differnt viewpoints and opinions <b />
- *Using wecloming and inclusive language <b />
- *Accepting critsism <b />
- Examples of bad Behavior are: <b />
- *Trolling, Spamming, Bad language like cursing <b />
- *Harrasment of any kind <b />
- *Releasing private information of someone else <b />
+ - Being respectful of differnt viewpoints and opinions <b />
+ - Using wecloming and inclusive language <b />
+ - Accepting critsism <b />
+ - Examples of bad Behavior are: <b />
+ - Trolling, Spamming, Bad language like cursing <b />
+ - Harrasment of any kind <b />
+ - Releasing private information of someone else <b />
   
 **Contributing Rules** <b />
 - All Contributions are Reviewed by the Developer Team
