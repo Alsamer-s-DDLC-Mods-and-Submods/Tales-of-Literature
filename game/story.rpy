@@ -128,7 +128,7 @@ label story:
     
     stop music fadeout 1.5
     show bg house
-    play music t8 fadeout 1
+    play music t5 fadeout 1
     with wipeleft_scene
     show monika 3h at t22
     show sayori 1a at t21
@@ -150,25 +150,103 @@ label story:
     hide sayori
     hide monika
 
+    stop music fadeout 1.5
     show bg kitchen
     with wipeleft_scene
+    play music t5 fadeout 1
     "We entered mine and Sayori's House and made our way to the kitchen."
     show sayori 1a at t21
     show monika 1a at t22
-    player "Sayori, why don't you relax a little."
+    player "Sayori, why don't you relax a little and pick out a movie?"
     player "In the meantime, I will cook something for you, then Monika can ask her question."
     show sayori 3q at t21
     s "Ok [player]."
     hide sayori with dissolve
     show monika 4j at t11
-    m "Now [player], I want to ask you, if you want to start a Club in school?"
+    m "Now [player]"
+    extend 4a "I want to ask you, if you want to start a Club in school?"
     player "A Club huh?"
-    player "Yeah I would be interested."
+    show monika 2k at t11
+    m "Yeah [player], I would love to start a club with you."
+    player "Yeah, I would be interested."
     player "Do you have any Idea about what kind of club?"
     show monika 2l at t11
     m "Not really."
     show monika 1k at t11
     m "But im sure we could figure something out."
+    player "Ok Monika, I have to cook something for Sayori now."
+    show monika 5a at t11
+    m "Oh, what are you making?"
+    player "Im making Pancakes for her."
+    show monika 1a at t11
+    player "Do you want to help?"
+    m "Sure"
+    "[player] and Monika are beginning to cook."
+    hide monika
+    "In the Meantime Sayori tried to pick a Movie."
+
+    stop music fadeout 1.5
+    show bg lvr
+    with wipeleft_scene
+    play music t6 fadeout 1
+
+    s "Uhh"
+    s "Which Movie should I pick, theyre all so good!"
+    menu:
+        "Action Movie":
+            $ movieL = "1"
+            "Ohh I know, I'll pick the Action Movie."
+            jump movie_action
+        "Romance Movie":
+            $ movieL = "2"
+            "Ohh I know, I'll pick the Romance Movie."
+            jump movie_romance
+        
+label movie_action:
+    s "[player], Monika do you want to watch a action movie?"
+    player "Yeah sounds good."
+    s "Ok"
+    s "[player], Im going to change now."
+    player "Ok"
+    jump evening_first_day
+label movie_romance:
+    s "[player], Monika do you want to watch a romantic movie?"
+    player "Are you sure Sayori?"
+    player "I don't think that a good Idea."
+    s "Hmm"
+    s "Ok Sayori."
+    s "Then I'll pick the action movie."
+    player "Seems good."
+    s "[player], Im going to change now."
+    player "Ok Sayori."
+    jump evening_first_day
+
+label evening_first_day:
+    stop music fadeout 1.5
+    show bg kitchen
+    with wipeleft_scene
+    play music t5 fadeout 1
+
+    show Monika 3b at t11
+    m "Hey [player], I think the Pancakes are done."
+    player "They are cooked perfectly."
+    player "Wow, Monika didn't know you can cook that good!"
+    show monika 5a at t11
+    m "Thank you [player] but your really good to!"
+    player "Ok lets finsish this and get to Sayori."
+    show monika 3b at t11
+    m "Ok lets go [player]."
+    hide monika
+
+    stop music fadeout 1.5
+    show bg lvr
+    with wipeleft_scene
+    play music t2 fadeout 1
+
+    show monika 1a at t11
+    player "Ok Monika let's sit down."
+    show monika 1a at s11
+    "Monika sits down on the couch."f
 
     show bg black
     show monika 1a at t11
