@@ -182,32 +182,44 @@ label story:
     player "Do you want to help?"
     m "Sure"
     "[player] and Monika are beginning to cook."
-    hide monika
     "In the Meantime Sayori tried to pick a Movie."
+    hide monika
 
     stop music fadeout 1.5
     show bg lvr
     with wipeleft_scene
     play music t6 fadeout 1
 
+    s "Should I change, the Uniform is quite uncomfortable."
+    menu:
+        "Change into Casual Clothes.":
+            $ change_casual = "1"
+            s "Yeah, Im gonna change."
+            show bg lvr
+            with wipeleft_scene
+            s "Ahh, Feels good"
+            jump movie_pick
+        "Stay in Uniform.":
+            $ change_casual = "2"
+            "Im to lazy to change now."
+            jump movie_pick
+label movie_pick:
     s "Uhh"
     s "Which Movie should I pick, theyre all so good!"
     menu:
         "Action Movie":
             $ movieL = "1"
-            "Ohh I know, I'll pick the Action Movie."
+            s "Ohh I know, I'll pick the Action Movie."
             jump movie_action
         "Romance Movie":
             $ movieL = "2"
-            "Ohh I know, I'll pick the Romance Movie."
+            s "Ohh I know, I'll pick the Romance Movie."
             jump movie_romance
         
 label movie_action:
     s "[player], Monika do you want to watch a action movie?"
-    player "Yeah sounds good."
-    s "Ok"
-    s "[player], Im going to change now."
-    player "Ok"
+    player "Yeah, sounds good."
+    s "Ok."
     jump evening_first_day
 label movie_romance:
     s "[player], Monika do you want to watch a romantic movie?"
@@ -217,8 +229,6 @@ label movie_romance:
     s "Ok Sayori."
     s "Then I'll pick the action movie."
     player "Seems good."
-    s "[player], Im going to change now."
-    player "Ok Sayori."
     jump evening_first_day
 
 label evening_first_day:
@@ -227,7 +237,7 @@ label evening_first_day:
     with wipeleft_scene
     play music t5 fadeout 1
 
-    show Monika 3b at t11
+    show monika 3b at t11
     m "Hey [player], I think the Pancakes are done."
     player "They are cooked perfectly."
     player "Wow, Monika didn't know you can cook that good!"
@@ -245,9 +255,140 @@ label evening_first_day:
 
     show monika 1a at t11
     player "Ok Monika let's sit down."
-    show monika 1a at s11
-    "Monika sits down on the couch."f
+    show monika 1a at t11
+    "Monika sits down on the couch."
+    if change_casual == "1":
+        show monika 3d at t11
+        m "Where is Sayori?"
+        player "I don't know Monika."
+        show monika 1k at t21
+        show sayori 4bx at t22
+        s "BOO"
+        show sayori 1bo at t22
+        s "Why aren't you scared?"
+        show sayori 1bm at t22
+        player "Sayori, you kow Im not scared from that little."
+        show monika 5a at t21
+        show sayori 1bl at t22
+        m "Nice try Sayori but a good spook takes a bit more Effort."
+        show sayori 3br at t22
+        s "Ok Monika, next time I'll prepare a big Prank."
+        player "We'll see Sayori."
+        jump watching_movie_first_evening
+    if change_casual == "2":
+        show monika 3d at t11
+        m "Where is Sayori?"
+        player "I don't know Monika."
+        show monika 1k at t21
+        show sayori 4x at t22
+        s "BOO"
+        show sayori 1o at t22
+        s "Why aren't you scared?"
+        show sayori 1m at t22
+        player "Sayori, you kow Im not scared from that little."
+        show monika 5a at t21
+        show sayori 1l at t22
+        m "Nice try Sayori but a good spook takes a bit more Effort."
+        show sayori 3r at t22
+        s "Ok Monika, next time I'll prepare a big Prank."
+        player "We'll see Sayori."
+        jump watching_movie_first_evening
 
+label watching_movie_first_evening:
+    show monika 1a at t21
+    if change_casual == "1":
+        show sayori 1ba at t22
+        player "Ok let's watch the movie now."
+        s "Yay."
+        jump after_movie_first_evening
+    if change_casual == "2":
+        show sayori 1a at t22
+        player "Ok let's watch the movie now."
+        s "Yay."
+        jump after_movie_first_evening
+
+label after_movie_first_evening:
+
+    stop music fadeout 1.5
+    show bg lvra
+    with wipeleft_scene
+    play music t4 fadeout 1
+    "After the movie it was pretty late."
+    if change_casual == "1":
+        show sayori 4br at t22
+        show monika 4l at t21
+        s "I really liked the Movie, how about you guys?"
+        player "Yeah, it was really good."
+        m "I can't say anything, it's my first action movie that I watched."
+        show sayori 2bm at t22
+        s "What?!"
+        s "How did you survive without them?"
+        show monika 2n at t21
+        m "It's just movies Sayori."
+        m "Don't you think you overreact a little?"
+        show sayori 4bp at t22
+        s "NOO{w=0.2} theyre not, theyre art."
+        show sayori 4bo at t22
+        show monika 2n at t21
+        m "Ok Ok Sayori I'll watch some more of them later."
+        show monika 2a at t21
+        m "Ok I think im going home now it's pretty late."
+        show sayori 3bg at s22
+        s "Ehh{w=0.2} already leaving?"
+        show monika 1e at t21
+        m "Yeah Sayori tomorrow is school."
+        show sayori 1bm at t22
+        s "Oh shoot I forgot."
+        player "Ok Monika we'll see you tomorrow."
+        show monika 5a at t21
+        m "Ok see you two tomorrow."
+        hide monika with dissolve
+        show sayori 3bc at t11
+        s "[player], I think im going to bed now."
+        player "Yes Sayori would probably be the best."
+        player "Im just getting ready then im coming upstairs."
+        show sayori 1bd at t11
+        s "I'll see you in my room."
+        jump bed_time
+    if change_casual == "2":
+        show sayori 4r at t22
+        show monika 4l at t21
+        s "I really liked the Movie, how about you guys?"
+        player "Yeah, it was really good."
+        m "I can't say anything, it's my first action movie that I watched."
+        show sayori 2m at t22
+        s "What?!"
+        s "How did you survive without them?"
+        show monika 2n at t21
+        m "It's just movies Sayori."
+        m "Don't you think you overreact a little?"
+        show sayori 4p at t22
+        s "NOO{w=0.2} theyre not, theyre art."
+        show sayori 4o at t22
+        show monika 2n at t21
+        m "Ok Ok Sayori I'll watch some more of them later."
+        show monika 2a at t21
+        m "Ok I think im going home now it's pretty late."
+        show sayori 3g at s22
+        s "Ehh{w=0.2} already leaving?"
+        show monika 1e at t21
+        m "Yeah Sayori tomorrow is school."
+        show sayori 1m at t22
+        s "Oh shoot I forgot."
+        player "Ok Monika we'll see you tomorrow."
+        show monika 5a at t21
+        m "Ok see you two tomorrow."
+        hide monika with dissolve
+        show sayori 3c at t11
+        s "[player], I think im going to bed now."
+        player "Yes Sayori would probably be the best."
+        player "Im just getting ready then im coming upstairs."
+        show sayori 1d at t11
+        s "I'll see you in my room."
+        jump bed_time
+
+label bed_time:
+    "Next_Story_Input"
     show bg black
     show monika 1a at t11
     m "This is the End of the Alpha."
