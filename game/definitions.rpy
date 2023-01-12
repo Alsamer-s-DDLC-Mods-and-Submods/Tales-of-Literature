@@ -202,6 +202,8 @@ image bg lockers = "mod_assets/bg/lockers.png"
 image bg notebook = "bg/notebook.png" # Poem Game Notebook Scene
 image bg notebook-glitch = "bg/notebook-glitch.png" # Glitched Poem Game BG
 image bg black = "mod_assets/bg/black.jpg"
+image bg lvr = "mod_assets/bg/living-room.png"
+image bg lvra = "mod_assets/bg/living-roomafternoon.png"
 
 # This image shows a glitched screen during Act 2 poem sharing with Yuri.
 image bg glitch = LiveTile("bg/glitch.jpg")

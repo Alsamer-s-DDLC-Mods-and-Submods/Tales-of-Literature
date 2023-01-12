@@ -1,15 +1,14 @@
-**In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.**
+In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation. <b />
 <b />
-<b />
-**Standadarts in our Community**
+**Standadarts in our Community** <b />
 Examples of good Behavior are: <b />
- *Being respectful of differnt viewpoints and opinions <b />
- *Using wecloming and inclusive language <b />
- *Accepting critsism <b />
- Examples of bad Behavior are: <b />
- *Trolling, Spamming, Bad language like cursing <b />
- *Harrasment of any kind <b />
- *Releasing private information of someone else <b />
+ - Being respectful of differnt viewpoints and opinions <b />
+ - Using wecloming and inclusive language <b />
+ - Accepting critsism <b />
+ - Examples of bad Behavior are: <b />
+ - Trolling, Spamming, Bad language like cursing <b />
+ - Harrasment of any kind <b />
+ - Releasing private information of someone else <b />
   
 **Contributing Rules** <b />
 - All Contributions are Reviewed by the Developer Team
@@ -28,5 +27,5 @@ Examples of good Behavior are: <b />
 - Examples are: Using a project E-mail, project Account or be an appointed representative offline and online.
 
 **Enforcments**
-- When coming across Harassment, abusive texts, or otherwisley uneccaptle behavior please contact this E-mail talesofliterature@gmail.com.
+- When coming across Harassment, abusive texts, or otherwisley uneccaptle behavior please contact this E-mail talesofliterature@gmail.com or write a complain in our Discord Server.
 - Every Complaint will be reviewed and investigated and will be rsponded on as soon as possible.

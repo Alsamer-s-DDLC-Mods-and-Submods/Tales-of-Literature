@@ -564,7 +564,7 @@ label credits2:
     # These show statements shows the work-type and person-type credits in the 
     # credits.
     show credits_header "Concept & Game Design" as credits_header_1 at credits_text_scroll_left
-    show credits_text "Dan Salvato" as credits_text_1 at credits_text_scroll_left
+    show credits_text "Alsamer98\nMilo" as credits_text_1 at credits_text_scroll_left
     
     $ lockedtext = "" if persistent.clear[imagenum] else "_locked"
     $ if persistent.clearall: lockedtext = "_clearall"
@@ -603,7 +603,7 @@ label credits2:
     show expression ("credits_cg4" + lockedtext) as credits_image_2 at credits_scroll_left
     
     show credits_header "Writing" as credits_header_2 at credits_text_scroll_right
-    show credits_text "Alsamer98" as credits_text_2 at credits_text_scroll_right
+    show credits_text "Alsamer98\nBeb" as credits_text_2 at credits_text_scroll_right
     
     $ lockedtext = "" if persistent.clear[imagenum] else "_locked"
     $ if persistent.clearall: lockedtext = "_clearall"
