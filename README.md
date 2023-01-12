@@ -6,7 +6,7 @@
   3. Run DDLC.exe
 
 **Bugs**:
- For Bug Reports please open an Issue.
+ For Bug Reports please open an Issue and Label it [Bug].
  
  **Adding something to Tales of Literature**:
  
