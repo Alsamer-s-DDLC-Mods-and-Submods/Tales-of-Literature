@@ -27,5 +27,5 @@ Examples of good Behavior are: <b />
 - Examples are: Using a project E-mail, project Account or be an appointed representative offline and online.
 
 **Enforcments**
-- When coming across Harassment, abusive texts, or otherwisley uneccaptle behavior please contact this E-mail talesofliterature@gmail.com.
+- When coming across Harassment, abusive texts, or otherwisley uneccaptle behavior please contact this E-mail talesofliterature@gmail.com or write a complain in our Discord Server.
 - Every Complaint will be reviewed and investigated and will be rsponded on as soon as possible.
