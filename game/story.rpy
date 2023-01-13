@@ -1,7 +1,7 @@
 label story:
     show bg corridor
     play music t5
-    player "Another Day in school is another day wasted"
+    player "Another regular day at school."
     player "As I was walking down the hallway, I saw someone in the Distance"
     show monika 1a at t11
     m "Ah [player] I have something to ask you."
@@ -349,6 +349,7 @@ label after_movie_first_evening:
         player "Im just getting ready then im coming upstairs."
         show sayori 1bd at t11
         s "I'll see you in my room."
+        hide sayori
         jump bed_time
     if change_casual == "2":
         show sayori 4r at t22
@@ -385,10 +386,30 @@ label after_movie_first_evening:
         player "Im just getting ready then im coming upstairs."
         show sayori 1d at t11
         s "I'll see you in my room."
+        hide sayori
         jump bed_time
 
 label bed_time:
-    "Next_Story_Input"
+    stop music fadeout 1.5
+    show bg hallway_house
+    with wipeleft_scene
+    play music t5 fadeout 1
+    "After getting ready, I am on my way to Sayori."
+
+    show bg bedroom2
+    with wipeleft_scene
+    show sayori 1ba at t11
+    player "Hello Sayori, I just here to say Goodnight."
+    show sayori 2bd at t11
+    s "Ok [player]."
+    s "Goodnight, nice Dreams."
+    player "You too Sayori"
+    hide sayori
+
+    show bg bedroom
+    with wipeleft_scene
+    player "I should probably go to bed now."
+    
     show bg black
     show monika 1a at t11
     m "This is the End of the Alpha."
