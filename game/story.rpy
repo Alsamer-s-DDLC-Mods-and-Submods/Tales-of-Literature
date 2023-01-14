@@ -83,16 +83,25 @@ label story:
     show sayori 1u at h21
     n "NO! THESE AREN'T JUST BOOKS!"
     show sayori 2u at s21
-    s "Why are you yelling at me?"
+    player "Woah, {w=0.6} Natsuki why are you so mad?"
+    show natsuki 4g at t22
+    n "It's none of your Business,{w=0.4} besides it's a long story."
+    player "Are you sure, maybe we could help?{nw}"
+    show natsuki 1v at t22
+    n "NO!"
     show natsuki 5g at t22
-    n "These books mean a lot to me. Sorry for yelling at you, but I didn't think, it just came out."
+    n "Ok look, Im sorry for yelling at you Sayori but these Books are meaning a lot to me."
     show sayori 1w at t21
-    s "Im really sorry Natsuki, I din't know that this Manga means so much to you."
+    s "Im really sorry Natsuki, I din't know that these Manga are meaning so much to you, do you want to talk about why?"
+    show natsuki 3g at t22
+    n "No, im not in the mood."
+    n "Can you two leave already, I want some time alone."
     show sayori 2k at t21
-    player "Do you mind, us helping you?"
+    player "Alright"
+    player "But before we go would you mind, us helping you?"
     player "See it as a apologie"
     show natsuki 5e at t22
-    n "No I don't need help of you two, I'll do it myself."
+    n "No, I don't need help of you two, I'll do it myself."
     show sayori 1f at t21
     player "Are you sure Natsuki?"
     show natsuki 4e at t22
@@ -217,12 +226,12 @@ label movie_pick:
             jump movie_romance
         
 label movie_action:
-    s "do you guys want to watch a action movie?"
+    s "Do you guys want to watch a action movie?"
     player "Yeah, sounds good."
     s "Ok."
     jump evening_first_day
 label movie_romance:
-    s "do you guys want to watch a romantic movie?"
+    s "Do you guys want to watch a romantic movie?"
     player "Are you sure Sayori?"
     player "I don't think that's a good Idea."
     s "Hmm"
@@ -239,10 +248,11 @@ label evening_first_day:
 
     show monika 3b at t11
     m "Hey [player], I think the Pancakes are done."
-    player "Wow Monika, that smells delicious!"
+    player "Wow Monika, these smells delicious!"
     show monika 5a at t11
     m "Thank you."
     player "I'll get the plates."
+    hide monika
 
     stop music fadeout 1.5
     show bg lvr
@@ -270,6 +280,14 @@ label evening_first_day:
         show sayori 3br at t22
         s "I'll prepare something bigger for the next time."
         player "We'll see Sayori."
+        show sayori 1bo at t22
+        show monika 2d at t21
+        s "Wait{w=0.2}.{w=0.2}.{w=0.2}. I smell something."
+        show sayori 4br at t22
+        show monika 1k at t21
+        s "Pancakes!!!"
+        player "Yes Sayori, we made you Pancakes."
+        show sayori 4bq at t22
         jump watching_movie_first_evening
     if change_casual == "2":
         show monika 3d at t11
@@ -288,6 +306,14 @@ label evening_first_day:
         show sayori 3r at t22
         s "I'll prepare something bigger for the next time."
         player "We'll see Sayori."
+        show sayori 1o at t22
+        show monika 2d at t21
+        s "Wait{w=0.2}.{w=0.2}.{w=0.2}. I smell something."
+        show sayori 4r at t22
+        show monika 1k at t21
+        s "Pancakes!!!"
+        player "Yes Sayori, we made you Pancakes."
+        show sayori 4q at t22
         jump watching_movie_first_evening
 
 label watching_movie_first_evening:
@@ -321,7 +347,7 @@ label after_movie_first_evening:
         s "How did you survive without them?"
         show monika 2n at t21
         m "They're just movies Sayori."
-        m "Don't you think you overreact a little?"
+        m "Don't you think you're overreacting a little?"
         show sayori 4bp at t22
         s "NOO{w=0.2} I am not, they're a kind of artwork for me. "
         show sayori 4bo at t22
@@ -335,7 +361,7 @@ label after_movie_first_evening:
         m "Yeah Sayori, we have school tomorrow."
         show sayori 1bm at t22
         s "Oh shoot, I forgot."
-        player "Ok monika, till tomorrow."
+        player "Ok Monika, see you tomorrow."
         show monika 5a at t21
         m "See ya"
         hide monika with dissolve
@@ -358,9 +384,9 @@ label after_movie_first_evening:
         s "How did you survive without them?"
         show monika 2n at t21
         m "They're just movies Sayori."
-        m "Don't you think you overreact a little?"
+        m "Don't you think you're overreacting a little?"
         show sayori 4p at t22
-        s "NOO{w=0.2} I am not, they're a kind of artwork for me. ."
+        s "NOO{w=0.2} I am not, they're a kind of artwork for me."
         show sayori 4o at t22
         show monika 2n at t21
         m "Ok Ok Sayori I'll watch some more of them later."
@@ -372,7 +398,7 @@ label after_movie_first_evening:
         m "Yeah Sayori, we have school tomorrow."
         show sayori 1m at t22
         s "Oh shoot I forgot."
-        player "Ok monika, till tomorrow."
+        player "Ok Monika, see you tomorrow."
         show monika 5a at t21
         m "See ya."
         hide monika with dissolve
@@ -399,7 +425,7 @@ label bed_time:
     show sayori 2bd at t11
     s "Ok [player]."
     s "Goodnight, sweet Dreams."
-    player "You too Sayori"
+    player "You too Sayori."
     hide sayori
 
     show bg bedroom
@@ -408,7 +434,7 @@ label bed_time:
     
     show bg black
     show monika 1a at t11
-    m "This is the End of the Alpha."
+    m "This is the End of this Alpha Version."
     show monika 2b at t11
     m "So this is the goodbye for now."
     show monika 1e at t11
