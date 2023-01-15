@@ -92,7 +92,7 @@ label story:
     show natsuki 5g at t22
     n "Ok look, Im sorry for yelling at you Sayori but these Books are meaning a lot to me."
     show sayori 1w at t21
-    s "Im really sorry Natsuki, I din't know that these Manga are meaning so much to you, do you want to talk about why?"
+    s "Im really sorry Natsuki, I didn't know that these Manga are meaning so much to you, do you want to talk about why?"
     show natsuki 3g at t22
     n "No, im not in the mood."
     n "Can you two leave already, I want some time alone."
