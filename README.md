@@ -24,6 +24,6 @@
   
   **For Questions**:
     Please be free to use one of the following: <br />
-                                              Email: talesofliterature@gmail.com <br />
-                                              Discord: Alsamer98#9852 <br />
-                                              Dicord Server: https://discord.gg/esFZmW4QHd
+                                              **Email**: talesofliterature@gmail.com <br />
+                                              **Discord**: Alsamer98#9852 <br />
+                                              **Dicord Server**: https://discord.gg/esFZmW4QHd
