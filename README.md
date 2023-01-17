@@ -18,7 +18,8 @@
  
          show bg [name_of_Background] 
          show [character] [exp_code] at [Position] 
-         play music [music_code] 
+         play music [music_code]
+         stop music
   
   For Contributing Content, please use the content Branch.
   
