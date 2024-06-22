@@ -673,7 +673,7 @@ label credits2:
     show expression ("credits_cg9" + lockedtext) as credits_image_1 at credits_scroll_right
 
     show credits_header "Special Thanks" as credits_header_1 at credits_text_scroll_left,
-    show credits_text "Beb" as credits_text_1 at credits_text_scroll_left,
+    show credits_text "Beb\nOrangeGuy" as credits_text_1 at credits_text_scroll_left,
 
     
     $ lockedtext = "" if persistent.clear[imagenum] else "_locked"

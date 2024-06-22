@@ -48,7 +48,7 @@ label story:
     show sayori 1a at t11
     "As we were walking down the Corridor, we heard a scream."
     show sayori 4m at h11
-    n "WHAT THE FUCK!!!"
+    w "WHAT THE FUCK!!!"
     s "What was that?"
     player "I don't know, but i think she need help"
     "We rushed where we thought the Scream came from."
@@ -61,11 +61,11 @@ label story:
     "We opened the Door and saw a little Girl with Pink Hair, staring at Manga on the Floor."
     show natsuki 5f at t22
     show sayori 2m at l21
-    n "WHO THREW ALL MY MANGA ON THE FLOOR!"
+    w "WHO THREW ALL MY MANGA ON THE FLOOR!"
     s "What Happened?"
     show natsuki 5g at t22
     show sayori 3c at t21
-    n "Who are you two?"
+    w "Who are you two?"
     s "Im Sayori and thats [player]"
     player "Hello"
     player "And you are?"
@@ -92,7 +92,7 @@ label story:
     show natsuki 5g at t22
     n "Ok look, Im sorry for yelling at you Sayori but these Books are meaning a lot to me."
     show sayori 1w at t21
-    s "Im really sorry Natsuki, I din't know that these Manga are meaning so much to you, do you want to talk about why?"
+    s "Im really sorry Natsuki, I didn't know that these Manga are meaning so much to you, do you want to talk about why?"
     show natsuki 3g at t22
     n "No, im not in the mood."
     n "Can you two leave already, I want some time alone."
